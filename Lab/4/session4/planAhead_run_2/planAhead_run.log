@@ -1,0 +1,61 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from F:/Xilink/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [F:/Xilink/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [F:/Xilink/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {F:/Lessons/Term 3/LC/Lab/4/session4/pa.fromNetlist.tcl}
+# create_project -name session4 -dir "F:/Lessons/Term 3/LC/Lab/4/session4/planAhead_run_2" -part xc3s400pq208-5
+create_project: Time (s): elapsed = 00:00:06 . Memory (MB): peak = 462.555 ; gain = 48.684
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "F:/Lessons/Term 3/LC/Lab/4/session4/paritiy3_gen_sop.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {F:/Lessons/Term 3/LC/Lab/4/session4} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "paritiy3_gen_sop.ucf" [current_fileset -constrset]
+Adding file 'F:/Lessons/Term 3/LC/Lab/4/session4/paritiy3_gen_sop.ucf' to fileset 'constrs_1'
+# add_files [list {paritiy3_gen_sop.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s400pq208-5
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design paritiy3_gen_sop.ngc ...
+WARNING:NetListWriters:298 - No output is written to paritiy3_gen_sop.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file paritiy3_gen_sop.edif ...
+ngc2edif: Total memory usage is 4310416 kilobytes
+
+Parsing EDIF File [./planAhead_run_2/session4.data/cache/paritiy3_gen_sop_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_2/session4.data/cache/paritiy3_gen_sop_ngc_zx.edif]
+INFO: [Designutils 20-910] Reading macro library F:/Xilink/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/hd_int_macros.edn
+Parsing EDIF File [F:/Xilink/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/hd_int_macros.edn]
+Finished Parsing EDIF File [F:/Xilink/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/hd_int_macros.edn]
+Loading clock regions from F:/Xilink/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s400/ClockRegion.xml
+Loading clock buffers from F:/Xilink/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s400/ClockBuffers.xml
+Loading package from F:/Xilink/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s400/pq208/Package.xml
+Loading io standards from F:/Xilink/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from F:/Xilink/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s400/pq208/SSORules.xml
+Loading list of drcs for the architecture : F:/Xilink/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/drc.xml
+INFO: [Timing 38-77] Reading timing library F:/Xilink/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/spartan3-5.lib.
+INFO: [Timing 38-34] Done reading timing library F:/Xilink/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/spartan3-5.lib.
+Parsing UCF File [F:/Lessons/Term 3/LC/Lab/4/session4/paritiy3_gen_sop.ucf]
+Finished Parsing UCF File [F:/Lessons/Term 3/LC/Lab/4/session4/paritiy3_gen_sop.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 8d0d77c9
+link_design: Time (s): elapsed = 00:00:21 . Memory (MB): peak = 576.527 ; gain = 109.461
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Tue Nov 02 18:04:54 2021...
+INFO: [Common 17-83] Releasing license: PlanAhead

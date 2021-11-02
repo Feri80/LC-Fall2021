@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=F:\Lessons\Term 3\LC\Lab\4\session4\paritiy3_gen_sop.ncd
+OUTFILE=F:\Lessons\Term 3\LC\Lab\4\session4\paritiy3_gen_sop.bit
+FAMILY=Spartan3
+PART=xc3s400-5pq208
+WORKINGDIR=F:\Lessons\Term 3\LC\Lab\4\session4
+LICENSE=WebPack
+USER_INFO=__0_0_0

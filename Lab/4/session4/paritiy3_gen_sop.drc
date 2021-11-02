@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Tue Nov 02 17:46:16 2021
+
+drc -z paritiy3_gen_sop.ncd paritiy3_gen_sop.pcf
+
+DRC detected 0 errors and 0 warnings.

@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "F:/Lessons/Term 3/LC/Lab/4/session4/paritiy3_gen_sop.xst" -ofn "F:/Lessons/Term 3/LC/Lab/4/session4/paritiy3_gen_sop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "paritiy3_gen_sop.ngc" paritiy3_gen_sop.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o paritiy3_gen_sop_map.ncd paritiy3_gen_sop.ngd paritiy3_gen_sop.pcf 
+par -w -intstyle ise -ol high -t 1 paritiy3_gen_sop_map.ncd paritiy3_gen_sop.ncd paritiy3_gen_sop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml paritiy3_gen_sop.twx paritiy3_gen_sop.ncd -o paritiy3_gen_sop.twr paritiy3_gen_sop.pcf 
+bitgen -intstyle ise -f paritiy3_gen_sop.ut paritiy3_gen_sop.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc paritiy3_gen_sop.ucf -p xc3s400-pq208-5 "paritiy3_gen_sop.ngc" paritiy3_gen_sop.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o paritiy3_gen_sop_map.ncd paritiy3_gen_sop.ngd paritiy3_gen_sop.pcf 
+par -w -intstyle ise -ol high -t 1 paritiy3_gen_sop_map.ncd paritiy3_gen_sop.ncd paritiy3_gen_sop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml paritiy3_gen_sop.twx paritiy3_gen_sop.ncd -o paritiy3_gen_sop.twr paritiy3_gen_sop.pcf -ucf paritiy3_gen_sop.ucf 
+bitgen -intstyle ise -f paritiy3_gen_sop.ut paritiy3_gen_sop.ncd 
+xst -intstyle ise -ifn "F:/Lessons/Term 3/LC/Lab/4/session4/paritiy3_gen_sop.xst" -ofn "F:/Lessons/Term 3/LC/Lab/4/session4/paritiy3_gen_sop.syr" 

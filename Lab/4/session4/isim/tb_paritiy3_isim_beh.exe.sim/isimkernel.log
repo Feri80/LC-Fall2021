@@ -1,0 +1,28 @@
+Command line:
+   tb_paritiy3_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  57140
+
+Tue Nov 02 18:09:30 2021
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 5153.87 Meg
+
+ Total Signals          : 30
+ Total Nets             : 28
+ Total Signal Drivers   : 20
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 22
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 111
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 4996.59 Meg
+
+Tue Nov 02 18:11:26 2021
+
