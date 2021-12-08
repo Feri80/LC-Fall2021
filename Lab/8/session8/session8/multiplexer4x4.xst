@@ -1,0 +1,5 @@
+set -tmpdir "F:/Lessons/Term 3/LC/Lab/8/session8/session8/xst/projnav.tmp"
+set -xsthdpdir "F:/Lessons/Term 3/LC/Lab/8/session8/session8/xst"
+elaborate
+-ifn multiplexer4x4.prj
+-ifmt mixed

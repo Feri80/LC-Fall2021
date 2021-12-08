@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2021-11-02T18:09:18</DateModified>
+  <DateModified>2021-11-08T23:53:25</DateModified>
   <ModuleName>paritiy3_gen_sop</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>F:/Lessons/Term 3/LC/Lab/4/session4/iseconfig/paritiy3_gen_sop.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>F:/Lessons/Term 3/LC/Lab/4/session4</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>F:/Lessons/Term 3/LC/Lab/4/session4\</ImplementationReportsDirectory>
   <DateInitialized>2021-11-02T18:09:18</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

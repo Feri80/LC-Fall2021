@@ -1,0 +1,28 @@
+Command line:
+   multiplexer4x4_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  59366
+
+Tue Nov 30 17:06:04 2021
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 5154.44 Meg
+
+ Total Signals          : 19
+ Total Nets             : 35
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 7
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 115
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 5154.44 Meg
+
+Tue Nov 30 17:06:08 2021
+

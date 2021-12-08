@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "F:/Lessons/Term 3/LC/Lab/6/session6/session6/tb_comparator8_isim_beh.exe" -prj "F:/Lessons/Term 3/LC/Lab/6/session6/session6/tb_comparator8_beh.prj" "work.tb_comparator8" "work.glbl" 

@@ -1,0 +1,28 @@
+Command line:
+   tb_comparator8_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53678
+
+Wed Nov 17 00:25:45 2021
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 5153.93 Meg
+
+ Total Signals          : 114
+ Total Nets             : 109
+ Total Signal Drivers   : 81
+ Total Blocks           : 6
+ Total Primitive Blocks : 4
+ Total Processes        : 83
+ Total Traceable Variables  : 23
+ Total Scalar Nets and Variables : 208
+
+ Total Simulation Time: 0.390625 sec
+
+ Current Memory Usage: 5468.5 Meg
+
+Wed Nov 17 00:26:30 2021
+
